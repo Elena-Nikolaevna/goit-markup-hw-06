@@ -77,7 +77,7 @@ ul {
   margin-left: 93px;
 }
 
-.nav .nav_batton {
+.nav .nav_button {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -125,29 +125,29 @@ ul {
 }
 
 
-/*batton*/
-.nav_batton {
+/*button*/
+.nav_button {
   color: var(--title-text-color);
   text-decoration: none;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
-.nav_batton:hover,
-.nav_batton:focus {
+.nav_button:hover,
+.nav_button:focus {
   color: var(--accent-color);
   text-decoration: none;
 }
-.nav_batton.current{
+.nav_button.current{
   color: var(--accent-color);
 }
 
-.nav_batton:active {
+.nav_button:active {
   color: var(--title-text-color);
   text-decoration: none;  
 }
 
-.nav_batton.current::after{
+.nav_button.current::after{
   content: "";
   display:block;
   position: absolute;
@@ -415,7 +415,7 @@ p {
 }
 
 .frends {
-  background: var(--batton-background-color);
+  background: var(--button-background-color);
   margin-top: 50px;
 }
 
@@ -443,7 +443,7 @@ p {
   padding-bottom: 16px;
 }
 
-.friends-batton {
+.friends-button {
   display: flex;
   padding: 0;  
   justify-content: center;
@@ -530,9 +530,9 @@ p {
 
 
 
-/*batton*/
+/*button*/
 
-.container-batton {
+.container-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -542,7 +542,7 @@ p {
 
 .button {
   color: var(--title-text-color);
-  background-color: var(--batton-background-color);
+  background-color: var(--button-background-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
@@ -982,8 +982,8 @@ p {
   letter-spacing: 1.16;
   color: #757575;
 }
-.form-field:last-child {
-  padding-bottom: 0;
+.coment{
+  padding-bottom: 20px;
 }
 
 .form-input{
@@ -1055,6 +1055,8 @@ p {
 .checkbox{
   display: inline-flex;
   justify-content: center;
+  padding-bottom: 0;
+ 
   
 
 }
@@ -1087,7 +1089,7 @@ p {
   content: "";
   width: 16px;
   height: 15px;
-  border: 2px solid #212121;  
+  border: 3px solid #212121;  
   margin-right: 8px;
 }
 .modal-check:checked + .modal-check-text::before{
